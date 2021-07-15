@@ -14,31 +14,35 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="page-header">
     <div class="container main-nav">
       <nav class="site-nav">
-        <a href="./index.html"><span class="logo logo-web">Web</span><span class="logo logo-studio">Studio</span></a>
-        <ul class="site-nav-list">
-          <li class="nav-item">
-            <a class="site-nav studio-color current-page" href="">Студия</a>
+        <a href="./index.html">
+          <span class="logo page-header__logo_Web-color">Web</span>
+          <span class="logo page-header__logo_Studio-color">Studio</span>
+        </a>
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a class="site-nav__link site-nav__link_active-page site-nav__link_underline" href="">Студия</a>
           </li>
-          <li class="nav-item">
-            <a class="site-nav" href="./portfolio.html">Портфолио</a>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li class="nav-item"><a class="site-nav" href="">Контакты</a></li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="site-contacts">
-        <li class="contacts-item">
-          <a class="contacts" href="mailto:info@devstudio.com">
-            <svg class="envelope" width="16" height="12">
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__link" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="contacts-item">
-          <a class="contacts" href="tel:+30961111111">
-            <svg class="envelope" width="10" height="16">
+        <li class="contacts__item">
+          <a class="contacts__link" href="tel:+30961111111">
+            <svg class="contacts__icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11</a>
@@ -50,7 +54,7 @@
     <!--Герой-->
     <section class="section-hero">
       <div class="container">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="section-hero__title">Эффективные решения для вашего бизнеса</h1>
         <button class="button" type="button" data-modal-open>Заказать услугу</button>
       </div>
     </section>
